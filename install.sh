@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if which brew > /dev/null; then
     echo "Homebrew is already installed. Skipping.."
 else
