@@ -4,7 +4,8 @@ ZSH_THEME="spaceship"
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_PACKAGE_SHOW=false
 SPACESHIP_BATTERY_SHOW=false
-SPACESHIP_BATTERY_ALWAYS_SHOW=false
+SPACESHIP_VENV_GENERIC_NAMES=()
+SPACESHIP_VENV_PREFIX="via 🐍 "
 # --- Plugins
 plugins=(git sudo zsh-syntax-highlighting zsh-autosuggestions)
 

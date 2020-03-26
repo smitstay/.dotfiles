@@ -17,6 +17,7 @@ brew install node
 brew cask install clipy
 brew cask install docker
 brew cask install iterm2
+brew cask install postman
 brew cask install visual-studio-code
 brew cask install spotify
 
