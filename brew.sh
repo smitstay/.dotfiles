@@ -20,7 +20,7 @@ brew cask install iterm2
 brew cask install postman
 brew cask install visual-studio-code
 brew cask install spotify
-brew cask install intellij-idea
+brew cask install intellij-idea-ce
 
 # Remove outdated versions from the cellar.
 brew cleanup
