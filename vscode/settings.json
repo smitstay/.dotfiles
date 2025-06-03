@@ -1,0 +1,35 @@
+{
+    // Turn on format on save
+    "editor.formatOnSave": true,
+  
+    // Delay linting until 500ms
+    "editor.quickSuggestionsDelay": 500,
+  
+    // Python settings
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+  
+    // ESLint / Prettier for JavaScript/TypeScript
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  
+    // Use spaces, 2 spaces per indent
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  
+    // Files to exclude from search
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/__pycache__": true
+    },
+  
+    // Set up integrated terminal to use Zsh
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  
+    // Other custom tweaks...
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-icons"
+  }
