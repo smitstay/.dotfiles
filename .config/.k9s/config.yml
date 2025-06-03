@@ -1,0 +1,21 @@
+# ~/.k9s/config.yml
+
+k9s:
+  currentContext: ""
+  refreshRate: 2
+  headlessMode: false
+  watcher:
+    exts:
+      - "yaml"
+
+themes:
+  default:
+    fgColor: "white"
+    bgColor: "black"
+    logoColor: "cyan"
+    transitionColor: "blue"
+
+# (Add any aliases or shortcuts you like. For instance:)
+aliases:
+  pods: "po"
+  services: "svc"

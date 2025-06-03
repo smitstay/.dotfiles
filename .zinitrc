@@ -1,0 +1,17 @@
+# ~/.zinitrc
+
+# Load Powerlevel10k from GitHub
+zinit light romkatv/powerlevel10k
+
+# Some useful Zsh plugins:
+# - syntax-highlighting
+zinit light zsh-users/zsh-syntax-highlighting
+
+# - autosuggestions
+zinit light zsh-users/zsh-autosuggestions
+
+# - zsh-completions
+zinit light zsh-users/zsh-completions
+
+# - zoxide (z directory jumper)
+zinit lightajeetdsouza/zoxide
